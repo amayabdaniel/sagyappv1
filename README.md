@@ -1,6 +1,7 @@
 # Sagy App
 
-## node version v20.2.0
+## node version 
+```v20.2.0```
 
 ## How to run project
 
