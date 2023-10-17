@@ -12,4 +12,7 @@ npm install
 ```
 
 ## Run locally
-```npm run dev```
+```bash
+npm run dev
+```
+
