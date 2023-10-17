@@ -5,9 +5,10 @@ const Pregunta2 = () => {
 
       <div className="pregunta-uno">
         <p>Qué tan preciso quiere que sea el instrumento</p>
-        <button>Alta</button>
-        <button>Baja</button>
-        &nbsp;
+        <div style={{ paddingBottom: '10px' }} >
+          <button>Alta</button>
+          <button>Baja</button>
+        </div>
       </div>
 
   )

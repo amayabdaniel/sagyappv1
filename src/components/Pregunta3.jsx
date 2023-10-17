@@ -5,25 +5,25 @@ import Slider from '@mui/material/Slider';
 
 const marks = [
   {
+    value: 0,
+    label: '0°C',
+  },
+  {
+    value: 20,
+    label: '20°C',
+  },
+  {
+    value: 37,
+    label: '37°C',
+  },
+  {
     value: 100,
-    label: 'COP',
-  },
-  {
-    value: 200,
-    label: 'COP',
-  },
-  {
-    value: 300,
-    label: 'COP',
-  },
-  {
-    value: 300,
-    label: 'COP',
+    label: '100°C',
   },
 ];
 
 function valuetext(value) {
-  return `${value}COP`;
+  return `${value}°C`;
 }
 
 
@@ -33,7 +33,7 @@ const Pregunta3 = () => {
     <div>
 
       <div className="pregunta-uno">
-        <p>Cuánto quiere que sea el precio del instrumento?</p>
+        <p>En cuál rango de temperatura operaría su instrumento?</p>
       </div>
       <Box sx={{ width: 350 }}>
         <Slider
@@ -43,6 +43,14 @@ const Pregunta3 = () => {
           step={10}
           marks={marks}
           valueLabelDisplay="on"
+          sx={{
+            '.MuiSlider-markLabel': {
+              color: 'white',
+            },
+            '.MuiSlider-valueLabel': {
+              color: 'white',
+            },
+          }}
         />
       </Box>
     </div>

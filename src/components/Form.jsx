@@ -23,7 +23,11 @@ const Form = () => {
 
   return (
     <div className="form">
-      <div className="progressbar"></div>
+      <div className="progressbar">
+        <div style={{ width: step === 0 ? "33.3%" : step == 1 ? "66.6%" : "100%" }}>
+
+        </div>
+      </div>
       <div className="form-cotainer">
         <div className="Header">
           <h1>{FormTitles[step]}</h1>
