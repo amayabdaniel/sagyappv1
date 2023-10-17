@@ -1,9 +1,15 @@
 # Sagy App
 
-## node version 
-```v20.2.0```
+Check npm version
 
-## How to run project
+```bash
+npm -v
+```
+Install the dependencies
 
+```bash
+npm install
+```
+
+## Run locally
 ```npm run dev```
-
